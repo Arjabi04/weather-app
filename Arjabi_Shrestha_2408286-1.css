@@ -1,0 +1,184 @@
+/* Student Name: Arjabi Shrestha
+Student id: 2408286 */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;;
+    box-sizing: border-box;
+}
+
+/* centering content and setting background image */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://wallpapersmug.com/download/2560x1440/7a22c5/forest_mountains_sunset_cool_weather_minimalism.jpg");
+}
+
+.container{
+    border: 1px solid #e5e1e1;
+    position: relative;
+    width: 100%;
+    max-width: 1050px;
+    height: 620px;
+    /* Transparent gradient background */
+    background: linear-gradient(0deg, hsla(200, 93%, 29%, 0.464), hsla(200, 39%, 77%, 0.258));
+    color: #fff; 
+    margin: 50px auto ;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+    display: flex;
+}
+
+.current_weather_container{
+    flex: 1;
+    max-width: 350px;
+    
+}
+
+.search{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+     /* aligns search bar and button side by side*/
+    justify-content: space-between;
+}
+
+.search input{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    outline: 0px;
+    background:#ebfffc; /*colour of search bar*/
+    color: #555;
+    padding: 10px 35px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    cursor: text;
+    text-transform: capitalize;
+}
+
+.search button{
+    position:absolute;
+    right: 0;
+    width:40px;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color:#555;
+    padding: 0 50px;
+} 
+
+.search button img{
+    width: 40px;
+}
+
+.icon-name{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.weather img{
+   width: 40%;
+   margin-top: 10px;
+}
+
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+.date {
+    margin-right: 5px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+.col{
+    text-align: center;
+    align-items: center;  
+}
+
+/* styling additional weather detail icons retrived from boxicons*/
+.col i{
+    font-size: 30px;
+}
+
+footer{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.past_week_container{
+    flex: 1;
+    margin-left: 60px; 
+    max-width: 100%;
+    justify-content: center;
+    align-items: cener
+
+}
+
+.vertical_line{
+    border-left:1px solid #e5e1e1;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 40%;
+    height: 100%;
+}
+.past_title{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+table {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+  }
+td, th {
+    padding-bottom: 10px;
+}
+
+td img{
+    width: 50px;
+}
+
+#title{
+    font-weight:700;
+    
+}
+ 
+
+
+
+
+
